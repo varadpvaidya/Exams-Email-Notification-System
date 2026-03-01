@@ -152,25 +152,25 @@ If validation fails → automatic retry (max 3 attempts).
 
 ### 1️⃣ Clone repository
 
-'''[https://github.com/varadpvaidya/Exams-Email-Notification-System.git ](https://github.com/varadpvaidya/Exams-Email-Notification-System.git)'''
+```https://github.com/varadpvaidya/Exams-Email-Notification-System.git```
 
-'''cd Exams-Email-Notification-System'''
+```cd Exams-Email-Notification-System```
 
 ### 2️⃣ Create virtual environment (recommended)
 
-'''python -m venv venv  '''
-'''source venv/bin/activate '''  # Mac/Linux  
-'''venv\Scripts\activate '''     # Windows  
+```python -m venv venv```
+```source venv/bin/activate  # Mac/Linux  ```
+```venv\Scripts\activate     # Windows  ```
 
 ### 3️⃣ Install dependencies
 
-'''pip install -r requirements.txt ''' 
+```pip install -r requirements.txt ```
 
 ---
 
 # ▶️ Run the Project
 
-'''python main.py  '''
+```python main.py  ```
 
 ---
 
@@ -230,4 +230,5 @@ You are welcome to:
 Pull requests, suggestions, and improvements are always welcome 🙌  
 
 ---
+
 
