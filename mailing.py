@@ -5,7 +5,7 @@ import unicodedata
 from dotenv import load_dotenv
 from elements import ELEMENTS
 
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # =====================================================
 # CONFIG
@@ -122,7 +122,8 @@ def remove_section(html: str, class_name: str) -> str:
 # =====================================================
 def build_email(ai_data: dict) -> str:
 
-    with open("emailtemplate.html", "r", encoding="utf-8") as f:
+    template_path = os.path.join(BASE_DIR, "emailtemplate.html")
+    with open(template_path, "r", encoding="utf-8") as f:
         final_html = f.read()
 
     # ---- Emoji allowed sections ----
